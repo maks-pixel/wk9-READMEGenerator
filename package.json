@@ -1,0 +1,22 @@
+{
+  "name": "wk9-readmegenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maks-pixel/wk9-READMEGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maks-pixel/wk9-READMEGenerator/issues"
+  },
+  "homepage": "https://github.com/maks-pixel/wk9-READMEGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
