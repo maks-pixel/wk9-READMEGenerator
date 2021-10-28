@@ -13,7 +13,8 @@ function renderLicenseLink(license) {
   if (license === 'None'){
     return '';
   } 
-  return `* [License](#license)`
+  return `
+  * [License](#license)`
 }
 
 // TODO: Create a function that returns the license section of README
@@ -22,8 +23,8 @@ function renderLicenseSection(license) {
   if (license === 'None'){
     return '';
   } 
-  return `## License 
-  
+  return `
+  ## License 
   This project has a ${license} license.
   `
 }
@@ -36,20 +37,21 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
  
  ## Description
-
+ 
  ${data.description}
 
  ## Table of Contents
-
- ${renderLicenseLink(data.license)}
-
+ * [Installation](#Installation)
+ * [Usage](#Usage)${renderLicenseLink(data.license)}
+ * [Contributing](#Contributing)
+ * [Tests](#Tests)
+ * [Questions](#Questions)
+ 
  ## Installation
  ${data.installation}
 
  ## Usage
- ${data.usage} 
-
- ${renderLicenseSection(data.license)}
+ ${data.usage} ${renderLicenseSection(data.license)}
 
  ## Contributing
  ${data.contribute}
@@ -58,10 +60,10 @@ function generateMarkdown(data) {
  ${data.tests}
 
  ## Questions
- here is the link to my Github: ${data.github}
+ here is the link to my Github: [github.com/${data.github}](github.com/${data.github})
  If you have any questions regarding the project or anything else you can contact me at:
  
-  Email: ${data.email} 
+  Email: [${data.email}](${data.email}) 
 `;
 }
 
