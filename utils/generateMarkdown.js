@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   if (license === 'None'){
     return '';
   }
-  return `![Badge](https://img.shields.io/badge/license-${license}-<COLOR>)`
+  return `![Badge](https://img.shields.io/badge/license-${license}-blue)`
 }
 
 // TODO: Create a function that returns the license link
@@ -40,22 +40,26 @@ function generateMarkdown(data) {
  ${data.description}
 
  ## Table of Contents
+
  ${renderLicenseLink(data.license)}
+
  ## Installation
  ${data.installation}
 
  ## Usage
  ${data.usage} 
 
- ## License
- ${data.}
+ ${renderLicenseSection(data.license)}
 
  ## Contributing
+ ${data.contribute}
 
  ## Tests
- 
- ##Questions
+ ${data.tests}
 
+ ## Questions
+ If you have any questions or want to contact me, you can reach me here:
+ ${data.questions}
 `;
 }
 

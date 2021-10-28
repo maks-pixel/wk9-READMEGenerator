@@ -29,7 +29,7 @@ const questions = [
     {
         type:'input',
         name: 'credits',
-        message:'Who collaboraed on this project with you? (including tutorials you followed and third-party assets, with links)'
+        message:'Who collaborated on this project with you? (including tutorials you followed and third-party assets, with links)'
     },
     {
         type: 'list',
@@ -39,18 +39,18 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'feature',
-        message: 'any cool features?'
-    },
-    {
-        type: 'input',
         name:'contribute',
         message: 'any guidelines on how to contribute to this project?'
     },
     {
         type:'input',
         name:'tests',
-        message:'any tests for this project?'
+        message:'any tests for this project? '
+    },
+    {
+        type:'input',
+        name:'questions',
+        message:'Where can people reach you to ask questions'
     }
 ];
 
