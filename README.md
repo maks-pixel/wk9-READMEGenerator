@@ -1,14 +1,13 @@
-# README generator
-  ![Badge](https://img.shields.io/badge/license-MIT-blue)
+# README Generator
+  
  
  ## Description
  
-  This project generates a new high quality README.md file using the users input through the command line prompts
+ This project generates a new high quality README.md file using the users input through the command line prompts.
 
  ## Table of Contents
  * [Installation](#Installation)
  * [Usage](#Usage)
-  * [License](#license)
  * [Contributing](#Contributing)
  * [Tests](#Tests)
  * [Questions](#Questions)
@@ -18,10 +17,7 @@
 
  ## Usage
  To run the project open the project in your command line. Then run your the index file using node.  
-
- ## License 
- This project has a MIT license.
-  
+ 
  ## Contributing
  N/A
 
