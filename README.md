@@ -4,7 +4,11 @@
  ## Description
  
  This project generates a new high quality README.md file using the users input through the command line prompts.
+ [Click here](https://watch.screencastify.com/v/0dtVDLDxZPeAPc5EbrfA) to the video that shows what it looks like when using the program.
+ This is the screenshot of the result of the video's README file that was created:
+ [screenshot.png](assets/images/screenshot.png)
 
+![Screenshot](assets/images/screenshot.png)
  ## Table of Contents
  * [Installation](#Installation)
  * [Usage](#Usage)
